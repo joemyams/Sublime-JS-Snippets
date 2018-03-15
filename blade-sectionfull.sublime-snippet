@@ -1,0 +1,142 @@
+<snippet>
+	<content><![CDATA[
+<div class="section section-sections">
+			<div class="container">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="section-description">
+						<h2 class="title">Ready to Use Sections</h2>
+
+						<h5 class="description">Build your page section by section! We have created multiple options for you to put together and customise into pixel perfect pages. From headers to footers, you will be able to choose the best combination for your project.</h5>
+
+						<a href="sections.html" target="_blank" class="btn btn-rose btn-round">View All Sections</a>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+
+				<div class="row">
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/h_1.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/h_2.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/h_3.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/h_4.jpg" alt="" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/f_1.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/f_2.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/f_3.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/f_4.jpg" alt="" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/f_5.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/b_2.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/b_3.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/b_4.jpg" alt="" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/b_1.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/p_2.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/p_3.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/p_4.jpg" alt="" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/p_5.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/p_1.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/pro_2.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/pro_3.jpg" alt="" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/m_1.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/pro_1.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/t_2.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/t_3.jpg" alt="" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/team_5.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/team_1.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/team_2.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/team_3.jpg" alt="" />
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/t_1.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/team_4.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/pro_4.jpg" alt="" />
+					</div>
+					<div class="col-md-3">
+						<img src="assets/assets-for-demo/m_2.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sectionfull</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

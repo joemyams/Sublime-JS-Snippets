@@ -1,0 +1,96 @@
+<snippet>
+	<content><![CDATA[
+<div class="pricing-4" id="pricing-4">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<h2 class="title">Pick the best plan for you</h2>
+					<h5 class="description">You have Free Unlimited Updates and Premium Support on each package.</h5>
+					<div class="section-space"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<div class="card card-pricing card-plain">
+						<div class="card-content">
+							<h6 class="category">Startup</h6>
+							<h1 class="card-title"><small>$</small>0</h1>
+							<ul>
+								<li><i class="material-icons text-success">check</i> Sharing Tools</li>
+								<li><i class="material-icons text-danger">close</i> Design Tools</li>
+								<li><i class="material-icons text-danger">close</i> Private Messages</li>
+								<li><i class="material-icons text-danger">close</i> Personal Brand</li>
+							</ul>
+							<a  class="btn btn-danger btn-round">
+								Downgrade Plan
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="card card-pricing card-raised">
+						<div class="card-content content-success">
+							<h6 class="category">Small Company</h6>
+							<h1 class="card-title"><small>$</small>89</h1>
+							<ul>
+								<li><i class="material-icons text-success">check</i> Sharing Tools</li>
+								<li><i class="material-icons text-success">check</i> Design Tools</li>
+								<li><i class="material-icons text-danger">close</i> Private Messages</li>
+								<li><i class="material-icons text-danger">close</i> Personal Brand</li>
+							</ul>
+							<a  class="btn btn-white btn-raise disabled btn-round">
+								Current Plan
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="card card-pricing card-plain">
+						<div class="card-content">
+							<h6 class="category">Large Company</h6>
+							<h1 class="card-title"><small>$</small>189</h1>
+							<ul>
+								<li><i class="material-icons text-success">check</i> Sharing Tools</li>
+								<li><i class="material-icons text-success">check</i> Design Tools</li>
+								<li><i class="material-icons text-success">check</i> Private Messages</li>
+								<li><i class="material-icons text-danger">close</i> Personal Brand</li>
+							</ul>
+							<a  class="btn btn-success btn-round">
+								Upgrade Plan
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-3">
+					<div class="card card-pricing card-plain">
+						<div class="card-content">
+							<h6 class="category">Enterprise</h6>
+							<h1 class="card-title"><small>$</small>389</h1>
+							<ul>
+								<li><i class="material-icons text-success">check</i> Sharing Tools</li>
+								<li><i class="material-icons text-success">check</i> Design Tools</li>
+								<li><i class="material-icons text-success">check</i> Private Messages</li>
+								<li><i class="material-icons text-success">check</i> Personal Brand</li>
+							</ul>
+							<a  class="btn btn-success btn-round">
+								Upgrade Plan
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>price2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

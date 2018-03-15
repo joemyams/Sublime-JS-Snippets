@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+
+function child_theme_add_lightbox() {
+    wp_enqueue_script( 'fancybox', get_bloginfo( 'stylesheet_directory' ) . '/js/jquery.fancybox.pack.js', array( 'jquery' ), false, true );
+    wp_enqueue_script( 'lightbox', get_bloginfo( 'stylesheet_directory' ) . '/js/lightbox.js', array( 'fancybox' ), false, true );
+    wp_enqueue_style( 'lightbox-style', get_bloginfo( 'stylesheet_directory' ) . '/css/jquery.fancybox.css' );
+}
+
+
+
+add_action( 'wp_enqueue_scripts', 'child_theme_add_lightbox' );
+
+]]></content>
+    <tabTrigger>wenque</tabTrigger>
+    <scope>text.blade</scope>
+    <description>See if user can't perform an action with else</description>
+</snippet>

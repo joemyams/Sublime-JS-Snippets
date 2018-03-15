@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+add_filter('sage/display_sidebar', function (${1:dollarsign}display) {
+    static ${1:dollarsign}display;
+
+    isset($display) || ${1:dollarsign}display = in_array(true, [
+      // The sidebar will be displayed if any of the following return true
+      is_single(),
+      is_404(),
+      is_page_template('template-custom.php')
+    ]);
+
+    return ${1:dollarsign}display;
+});${0:}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ss</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

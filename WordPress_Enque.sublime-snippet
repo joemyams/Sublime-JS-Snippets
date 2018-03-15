@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+// Enqueue Scripts/Styles for our Lightbox With Material Thme
+function child_theme_add_lightbox() {
+wp_enqueue_script( 'bootstrapjs', get_bloginfo( 'stylesheet_directory' ) . '/js/bootstrap.min.js', array( 'jquery' ), false, true );
+wp_enqueue_script( 'nouslider', get_bloginfo( 'stylesheet_directory' ) . '/js/nouislider.min.js', array( 'jquery' ), false, true );
+
+	wp_enqueue_script( 'materialjs', get_bloginfo( 'stylesheet_directory' ) . '/js/material.min.js', array( 'jquery' ), false, true );
+    wp_enqueue_script( 'fancybox', get_bloginfo( 'stylesheet_directory' ) . '/js/jquery.fancybox.pack.js', array( 'jquery' ), false, true );
+    wp_enqueue_script( 'lightbox', get_bloginfo( 'stylesheet_directory' ) . '/js/lightbox.js', array( 'fancybox' ), false, true );
+    wp_enqueue_style( 'lightbox-style', get_bloginfo( 'stylesheet_directory' ) . '/css/jquery.fancybox.css' );
+    wp_enqueue_style( 'material', get_bloginfo( 'stylesheet_directory' ) . '/css/material-kit.css' );
+    wp_enqueue_style( 'nav-var', get_bloginfo( 'stylesheet_directory' ) . '/css/vertical-nav.css' );
+    wp_enqueue_style( 'bootstrap', get_bloginfo( 'stylesheet_directory' ) . '/css/bootstrap.min.css' );
+
+}
+
+
+
+add_action( 'wp_enqueue_scripts', 'child_theme_add_lightbox' );
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>wenque</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope> 
+</snippet>

@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+<script type="text/javascript">
+
+		$(document).ready(function(){
+			var slider = document.getElementById('sliderRegular');
+
+	        noUiSlider.create(slider, {
+	            start: 40,
+	            connect: [true,false],
+	            range: {
+	                min: 0,
+	                max: 100
+	            }
+	        });
+
+	        var slider2 = document.getElementById('sliderDouble');
+
+	        noUiSlider.create(slider2, {
+	            start: [ 20, 60 ],
+	            connect: true,
+	            range: {
+	                min:  0,
+	                max:  100
+	            }
+	        });
+
+
+
+			materialKit.initFormExtendedDatetimepickers();
+
+		});
+	</script>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sliderscript</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

@@ -1,0 +1,42 @@
+<snippet>
+    <content><![CDATA[
+<table class = "table">
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Role</th>
+			<th>Active</th>
+			<th>Created</th>
+			<th>Updated</th>
+		</tr>	
+
+</thead>
+<tbody>
+@if(users)
+
+@foreach(${1:dollarsign}users as user)
+
+<tr>
+
+	<td>{{${1:dollarsign}user->id}}</td>
+	<td>{{${1:dollarsign}user->name}}</td>
+	<td>{{${1:dollarsign}user->email}}</td>
+	<td>{{${1:dollarsign}user->role->name}}</td>
+	<td>{{${1:dollarsign}user->is_active == 1 ? 'active' : 'Not Active'}}</td>
+	<td>{{${1:dollarsign}user->create_at->diffforHumans()}}</td>
+	<td>{{${1:dollarsign}user->updated_at->diffforHumans()}}</td>
+
+</tr>
+
+@endforeach
+
+@endif
+
+</tbody>
+</table>
+]]></content>
+    <tabTrigger>iub</tabTrigger>
+    <scope>text.blade</scope>
+</snippet>

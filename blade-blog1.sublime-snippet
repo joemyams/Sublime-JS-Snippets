@@ -1,0 +1,77 @@
+<snippet>
+	<content><![CDATA[
+	<div class="cd-section" id="blogs">
+
+	<!--     *********     BLOGS 1      *********      -->
+
+	<div class="blogs-1" id="blogs-1">
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-10 col-md-offset-1">
+					<h2 class="title">Latest Blogposts</h2>
+
+					<br />
+					<div class="card card-plain card-blog">
+						<div class="row">
+							<div class="col-md-5">
+								<div class="card-image">
+									<img class="img img-raised" src="assets/img/examples/card-blog4.jpg" />
+								</div>
+							</div>
+							<div class="col-md-7">
+								<h6 class="category text-info">Enterprise</h6>
+								<h3 class="card-title">
+									<a >Autodesk looks to future of 3D printing with Project Escher</a>
+								</h3>
+								<p class="card-description">
+									Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Today, it’s moving to a subscription model. Yet its own business model disruption is only part of the story — and… <a > Read More </a>
+								</p>
+								<p class="author">
+									by <a ><b>Mike Butcher</b></a>, 2 days ago
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="card card-plain card-blog">
+						<div class="row">
+							<div class="col-md-7">
+								<h6 class="category text-danger">
+									<i class="material-icons">trending_up</i> Trending
+								</h6>
+								<h3 class="card-title">
+									<a >6 insights into the French Fashion landscape</a>
+								</h3>
+								<p class="card-description">
+									Like so many organizations these days, Autodesk is a company in transition. It was until recently a traditional boxed software company selling licenses. Today, it’s moving to a subscription model. Yet its own business model disruption is only part of the story — and… <a > Read More </a>
+								</p>
+								<p class="author">
+									by <a ><b>Mike Butcher</b></a>, 2 days ago
+								</a>
+							</div>
+							<div class="col-md-5">
+								<div class="card-image">
+									<img class="img img-raised" src="assets/img/office2.jpg" />
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+		</div>
+	</div>
+</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>blog1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

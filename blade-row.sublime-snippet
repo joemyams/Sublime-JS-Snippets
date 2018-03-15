@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="row">
+	<div class="col-md-8 col-md-offset-2 text-center">
+		<h2 class="title">Why our product is the best</h2>
+		<h5 class="description">This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information.</h5>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>rw</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

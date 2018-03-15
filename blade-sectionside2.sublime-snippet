@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+	<div class="section section-content">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-4">
+						<div class="section-description">
+							<h3 class="title">Content Areas</h2>
+							<h6 class="description">For Areas that Need More Space</h6>
+							<h5 class="description">If you need elements such as tables, comments, description areas, tabs and many others, we've got you covered. We took into consideration multiple use cases and came up with some specific elements that you will love to use. They're beautiful and easy to use for the end user navigating your website. </h5>
+						</div>
+					</div>
+
+					<div class="col-md-7 col-md-offset-1">
+						<div class="image-container">
+							<img class="img" src="assets/assets-for-demo/content-test.png"/>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sectionside2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<div class="section col-md-10 col-md-offset-1">
+						<div class="col-md-4">
+							<img class="img-rounded img-responsive img-raised" alt="Raised Image" src="../assets/img/examples/blog4.jpg">
+						</div>
+						<div class="col-md-4">
+							<img class="img-rounded img-responsive img-raised" alt="Raised Image" src="../assets/img/examples/blog3.jpg">
+						</div>
+						<div class="col-md-4">
+							<img class="img-rounded img-responsive img-raised" alt="Raised Image" src="../assets/img/examples/blog1.jpg">
+						</div>
+					</div>
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>image3</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

@@ -1,0 +1,118 @@
+<snippet>
+	<content><![CDATA[
+<div class="pricing-5 section-gray" id="pricing-5">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h2 class="title">Choose a plan for your next project</h2>
+					<ul class="nav nav-pills" role="tablist">
+						<li class="active">
+							<a href="#personal" role="tab" data-toggle="tab">
+								Personal
+							</a>
+						</li>
+						<li>
+							<a href="#commercial" role="tab" data-toggle="tab">
+								Commercial
+							</a>
+						</li>
+					</ul>
+
+					<p class="text-gray">You have Free Unlimited Updates and Premium Support on each package. You also have 20 days to request a refund if you're not happy with your purchase.</p>
+				</div>
+
+				<div class="col-md-7 col-md-offset-1">
+					<div class="tab-content tab-space">
+						<div class="tab-pane active" id="personal">
+
+							<div class="col-md-6">
+								<div class="card card-pricing card-raised">
+									<div class="card-content">
+										<h6 class="category">HTML Package</h6>
+										<h1 class="card-title"><small>$</small>0</h1>
+										<ul>
+											<li><b>1</b> Developer</li>
+											<li><b>99+</b> Components</li>
+											<li><b>HTML</b> Elements</li>
+											<li><b>14</b> Page Examples</li>
+										</ul>
+										<a  class="btn btn-primary btn-round">
+											Free Download
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="card card-pricing card-plain">
+									<div class="card-content">
+										<h6 class="category">HTML & Sketch Package</h6>
+										<h1 class="card-title"><small>$</small>79</h1>
+										<ul>
+											<li><b>1</b> Developer</li>
+											<li><b>199+</b> Components</li>
+											<li><b>HTML & Sketch</b> Elements</li>
+											<li><b>22</b> Page Examples</li>
+										</ul>
+										<a  class="btn btn-white btn-round">
+											Buy Now!
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="tab-pane" id="commercial">
+							<div class="col-md-6">
+								<div class="card card-pricing card-raised">
+									<div class="card-content">
+										<h6 class="category">HTML Package</h6>
+										<h1 class="card-title"><small>$</small>159</h1>
+										<ul>
+											<li><b>5+</b> Developers</li>
+											<li><b>199+</b> Components</li>
+											<li><b>HTML</b> Elements</li>
+											<li><b>24</b> Page Examples</li>
+										</ul>
+										<a  class="btn btn-primary btn-round">
+											Buy Now!
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6">
+								<div class="card card-pricing card-plain">
+									<div class="card-content">
+										<h6 class="category">HTML & Sketch Package</h6>
+										<h1 class="card-title"><small>$</small>299</h1>
+										<ul>
+											<li><b>10+</b> Developers</li>
+											<li><b>299+</b> Components</li>
+											<li><b>HTML & Sketch</b> Elements</li>
+											<li><b>45</b> Page Examples</li>
+										</ul>
+										<a  class="btn btn-white btn-round">
+											Buy Now!
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+
+		</div>
+	</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>price1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

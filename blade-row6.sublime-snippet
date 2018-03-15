@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+		<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="profile-tabs">
+		                    <div class="nav-align-center">
+								<ul class="nav nav-pills nav-pills-icons" role="tablist">
+									<li class="active">
+			                            <a href="#work" role="tab" data-toggle="tab">
+											<i class="material-icons">palette</i>
+											Work
+			                            </a>
+			                        </li>
+                                    <li>
+										<a href="#connections" role="tab" data-toggle="tab">
+											<i class="material-icons">people</i>
+											Connections
+										</a>
+									</li>
+			                        <li>
+			                            <a href="#media" role="tab" data-toggle="tab">
+											<i class="material-icons">camera</i>
+			                                Media
+			                            </a>
+			                        </li>
+			                    </ul>
+
+
+							</div>
+						</div>
+						<!-- End Profile Tabs -->
+					</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>row6</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

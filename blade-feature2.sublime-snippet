@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+  <div class="about-office">
+                <div class="row  text-center">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h2 class="title">Our office is our second home</h2>
+                        <h4 class="description">Here are some pictures from our office. You can see the place looks like a palace and is fully equiped with everything you need to get the job done.</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-rounded img-responsive img-raised" alt="Raised Image" src="../assets/img/examples/office2.jpg">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-rounded img-responsive img-raised" alt="Raised Image" src="../assets/img/examples/office4.jpg">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-rounded img-responsive img-raised" alt="Raised Image" src="../assets/img/examples/office3.jpg">
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-rounded img-responsive img-raised" alt="Raised Image" src="../assets/img/examples/office5.jpg">
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-rounded img-responsive img-raised" alt="Raised Image" src="../assets/img/examples/office1.jpg">
+                    </div>
+
+                </div>
+
+            </div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>feauture2</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

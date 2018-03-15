@@ -1,0 +1,67 @@
+<snippet>
+	<content><![CDATA[
+<div class="section section-free-demo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="icon-github">
+							<i class="fa fa-github"></i>
+						</div>
+
+						<div class="section-description">
+							<h2 class="title">Free Demo</h2>
+							<h5 class="description">Do you want to test and see the benefits of this kit before purchasing it? You can give the demo version a try. It features enough basic components for you to get a feel of the design and also test the quality of the code. Get it free on GitHub!</h5>
+							<a href="https://github.com/timcreative/material-kit" target="_blank" class="btn btn-rose btn-round">View Demo on Github</a>
+							<div class="iframe-github">
+
+								<a class="github-button" href="https://github.com/timcreative/material-kit" data-icon="octicon-star" data-count-href="/timcreative/material-kit/stargazers" data-count-api="/repos/timcreative/material-kit#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star timcreative/material-kit on GitHub">Star</a>
+
+								<a class="github-button" href="https://github.com/timcreative/material-kit/fork" data-icon="octicon-repo-forked" data-count-href="/timcreative/material-kit/network" data-count-api="/repos/timcreative/material-kit#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Fork timcreative/material-kit on GitHub">Fork</a>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="col-md-6 col-md-offset-1">
+						<div class="col-md-6">
+    						<div class="card card-pricing card-plain">
+    							<div class="card-content">
+    								<h3 class="card-title">Free Demo</h3>
+    								<ul>
+    									<li> <b>60</b> Components</li>
+										<li> <b>3</b> Example Pages</li>
+    									<li><i class="material-icons text-danger">close</i> Unconventional Cards</li>
+										<li><i class="material-icons text-danger">close</i> Sections</li>
+										<li><i class="material-icons text-danger">close</i> Photoshop for Prototype</li>
+										<li><i class="material-icons text-danger">close</i> Premium Support</li>
+    								</ul>
+    							</div>
+    						</div>
+    					</div>
+						<div class="col-md-6">
+							<div class="card card-pricing card-plain">
+    							<div class="card-content">
+    								<h3 class="card-title">PRO Version</h3>
+    								<ul>
+    									<li> <b>1000+</b> Components</li>
+										<li> <b>10</b> Example Pages</li>
+    									<li><i class="material-icons text-success">check</i> Unconventional Cards</li>
+    									<li><i class="material-icons text-success">check</i> Sections</li>
+										<li><i class="material-icons text-success">check</i> Photoshop for Prototype</li>
+										<li><i class="material-icons text-success">check</i> Premium Support</li>
+    								</ul>
+    							</div>
+    						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</html>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>demo1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

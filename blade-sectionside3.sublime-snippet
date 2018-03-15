@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+	<div class="section-components">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<h3 class="title">Basic Components</h2>
+						<h6 class="description">The core elements of your website</h6>
+						<h5 class="description">We re-styled every Bootstrap element to make it resemble Material Design and also fit with each other. All the Bootstrap components that you need in a development have been re-design with the new look. Besides the numerous basic elements, we have also created additional classes. All these items will help you take your project to the next level.
+
+						</h5>
+					</div>
+					<div class="col-md-6 col-md-offset-1">
+						<div class="image-container">
+							<img src="assets/img/presentation/components.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sectionside3</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

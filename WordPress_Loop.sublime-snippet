@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+${1:dollarsign}loop = new Wp_Query( array('post_type' => 'testimonial', 'orderby' => 'post_id', 'order' => 'ASC')); ?>
+//the_field display specific functions
+<?php while (${1:dollarsign}loop->have_posts() ): ${1:dollarsign}loop->the_post(); ?>
+
+//crop image thumbnail.
+<?php if (has_post_thumbnail()){
+	     the_post_thumbnail(array (200, 200));
+	  
+	     }
+?>
+<?php endwhile; wp_reset_query(); ?>
+
+${0:}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>wloop</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope> 
+</snippet>

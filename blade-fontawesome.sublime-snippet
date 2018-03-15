@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+<?php
+function wmpudev_enqueue_icon_stylesheet() {
+	wp_register_style( 'fontawesome', 'http:////maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
+	wp_enqueue_style( 'fontawesome');
+}
+add_action( 'wp_enqueue_scripts', 'wmpudev_enqueue_icon_stylesheet' );
+?>
+	</div>
+
+
+.fa::before {
+	float: left;
+}
+
+.main-navigation ul li {
+	width: 100%;
+}
+
+.fa::before {
+	float: left;
+	margin-top: 8px;
+	width: 30px;
+}
+
+.main-navigation ul li.fa.fa-lg a {
+	font-family: 'Noto Serif', serif;
+	font-size: 0.8em;
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fontawesome</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

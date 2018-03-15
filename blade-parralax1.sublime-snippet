@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('../assets/img/bg10.jpg');">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<h2 class="title">A Place for Entrepreneurs to Share and Discover New Stories</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>parallax1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

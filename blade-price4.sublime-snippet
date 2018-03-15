@@ -1,0 +1,89 @@
+<snippet>
+	<content><![CDATA[
+<div class="pricing-2" id="pricing-2">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3 text-center">
+					<h2 class="title">Pick the best plan for you</h2>
+					<ul class="nav nav-pills nav-pills-rose" role="tablist">
+						<li class="active">
+							<a href="#dashboard-1" role="tab" data-toggle="tab">
+								Monthly
+							</a>
+						</li>
+						<li>
+							<a href="#schedule-1" role="tab" data-toggle="tab">
+								Yearly
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-4">
+					<div class="card card-pricing card-plain">
+						<div class="card-content">
+							<h6 class="category">Free</h6>
+							<h1 class="card-title"><small>$</small>0<small>/mo</small></h1>
+							<ul>
+								<li><b>1</b> Project</li>
+								<li><b>5</b> Team Members</li>
+								<li><b>55</b> Personal Contacts</li>
+								<li><b>5.000</b> Messages</li>
+							</ul>
+							<a  class="btn btn-rose btn-round">
+								Get Started
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card card-pricing card-background card-raised" style="background-image: url('assets/img/examples/card-blog3.jpg')">
+						<div class="card-content">
+							<h6 class="category text-info">Premium</h6>
+							<h1 class="card-title"><small>$</small>89<small>/mo</small></h1>
+							<ul>
+								<li><b>500</b> Projects</li>
+								<li><b>50</b> Team Members</li>
+								<li><b>125</b> Personal Contacts</li>
+								<li><b>15.000</b> Messages</li>
+							</ul>
+							<a  class="btn btn-white btn-round">
+								Get Started
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="card card-pricing card-plain">
+						<div class="card-content">
+							<h6 class="category">Platinum</h6>
+							<h1 class="card-title"><small>$</small>199<small>/mo</small></h1>
+							<ul>
+								<li><b>1000</b> Projects</li>
+								<li><b>100</b> Team Members</li>
+								<li><b>550</b> Personal Contacts</li>
+								<li><b>50.000</b> Messages</li>
+							</ul>
+							<a  class="btn btn-rose btn-round">
+								Get Started
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>price4</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

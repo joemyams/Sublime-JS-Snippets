@@ -1,0 +1,71 @@
+<snippet>
+	<content><![CDATA[
+	<div class="cd-section" id="blogs">
+
+	<!--     *********     BLOGS 1      *********      -->
+
+	<div class="blogs-4" id="blogs-4">
+
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-8 col-md-offset-2">
+					<h2 class="title">Latest Blogposts 4</h2>
+
+					<br />
+
+					<div class="card card-plain card-blog">
+						<div class="card-image">
+							<a >
+								<img class="img img-raised" src="assets/img/bg5.jpg" />
+							</a>
+						</div>
+
+						<h6 class="category text-info">Fashion</h6>
+
+						<h3 class="card-title">
+							<a >Autodesk looks to future of 3D</a>
+						</h3>
+
+						<h5 class="card-description">
+							Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is too high for the beams and angle of the ceiling I also wanted to point out that it’s the first album to go number 1 off of streaming...
+						</h5>
+
+						<a  class="btn btn-primary btn-round"> Read More</a>
+					</div>
+
+					<div class="card card-plain card-blog">
+						<div class="card-image">
+							<a >
+								<img class="img img-raised" src="assets/img/examples/blog6.jpg" />
+							</a>
+						</div>
+
+						<h6 class="category text-success">Lifestyle</h6>
+
+						<h3 class="card-title">
+							<a >We will breathe clean air and exercise</a>
+						</h3>
+
+						<h5 class="card-description">
+							Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is too high for the beams and angle of the ceiling I also wanted to point out that it’s the first album to go number 1 off of streaming...
+						</h5>
+
+						<a  class="btn btn-primary btn-round"> Read More</a>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+
+</div>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>blog4</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

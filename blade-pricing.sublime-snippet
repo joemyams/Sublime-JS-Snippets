@@ -1,0 +1,61 @@
+<snippet>
+    <content><![CDATA[
+<div class="pricing-3 section-image" style="background-image: url('images/programmer.jpg')" id="pricing-3">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <h2 class="title"><span><i class="material-icons">local_library</i></span> Start learning NOW!</h2>
+                    <h4>Joining takes less than a minute, You may cancel it any time.</h4>
+                    <div class="section-space"></div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 col-md-offset-2">
+                    <div class="card card-pricing">
+                        <div class="card-content">
+                            <h3 class="category"><b>Free</b></h3>
+                            <h1 class="card-title"><small>$</small>0<small>/mo</small></h1>
+                            <ul>
+                                <li><b>Watch Free Course</b> </li>
+                                <li><b>Limited Downloads</b> </li>
+                                <li><b>Limited Access</b> </li>
+                                <li><b>Can Earn through Affiliate</b></li><b>
+                            </b></ul><b>
+                            <a class="btn btn-primary btn-round">
+                                Get Started
+                            </a>
+                        </b></div><b>
+                    </b></div><b>
+                </b></div><b>
+
+                <div class="col-md-4">
+                    <div class="card card-pricing card-raised">
+                        <div class="card-content content-primary">
+                            <h3 class="category text-info"><b>Premium</b></h3>
+                            <h1 class="card-title"><small>$</small>15<small>/mo</small></h1>
+                            <ul>
+                                <li><b>Watch ALL Course</b> </li>
+                                <li><b>Unlimited Downloads</b> </li>
+                                <li><b>Access All Pages</b> </li>
+                                <li><b>Can Earn through Affiliate</b></li><b>
+                            </b></ul><b>
+                            <a class="btn btn-white btn-round">
+                                Get Started
+                            </a>
+                        </b></div><b>
+                    </b></div><b>
+                </b></div><b>
+
+            </b></b></div><b><b>
+
+        </b></b></div><b><b>
+    </b></b></div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>price1</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.blade</scope>
+</snippet>
